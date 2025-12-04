@@ -42,7 +42,6 @@ promptTemplate.invoke({ topic: "computers" }).then(response => {
 
 
 
-
 // Directly invoke the model with a simple question
  model.invoke("who are you?").then(response => {
    console.log("Response from Google Gemini:", response.content);
